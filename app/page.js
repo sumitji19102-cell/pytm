@@ -50,7 +50,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen pt-14 bg-[#d9edf5] flex flex-col">
+    <div className="w-full min-h-screen bg-[#e8f3f8] flex flex-col text-black">
 
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3">
@@ -62,28 +62,28 @@ export default function Home() {
           className="w-[90px]"
         />
 
-        <div className="text-xl">⋮</div>
+        <div className="text-xl text-black">⋮</div>
       </div>
 
       {/* Content */}
-      <div className="flex flex-col items-center px-4">
+      <div className="flex flex-col items-center px-4 text-black">
 
         {/* 🔥 Dynamic Name */}
-        <h2 className="text-xl font-semibold mt-2">{name}</h2>
+        <h2 className="text-xl font-semibold mt-2 text-black">{name}</h2>
 
         {/* 🔥 Dynamic UPI */}
-        <p className="text-gray-600 text-sm mt-1">
+        <p className="text-black text-sm mt-1">
           UPI ID: {upi}
         </p>
 
         {/* Amount */}
         <div className="flex items-center gap-2 mt-6">
           <h1 className="text-5xl font-bold">₹15</h1>
-          <RiVerifiedBadgeFill className="text-green-500 text-3xl" />
+          <RiVerifiedBadgeFill className="text-green-500 text-[40px]" />
         </div>
 
         {/* Date + Ref */}
-        <div className="flex items-center gap-2 mt-4 text-gray-600 text-sm flex-wrap justify-center">
+        <div className="flex items-center gap-2 mt-4 text-black text-sm flex-wrap justify-center">
           <span>{dateTime}</span>
           <span>•</span>
           <span>Ref. No: {refNumber}</span>

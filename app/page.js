@@ -5,6 +5,8 @@ import { FaWhatsapp } from "react-icons/fa";
 import { MdContentCopy } from "react-icons/md";
 import { IoArrowBack } from "react-icons/io5";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
+import { LiaArrowLeftSolid } from "react-icons/lia";
+import { PiDotsThreeVertical } from "react-icons/pi";
 
 export default function Home() {
   const [dateTime, setDateTime] = useState("");
@@ -53,18 +55,19 @@ export default function Home() {
     <div className="w-full min-h-screen bg-[#E0FAFF] pt-12 flex flex-col text-black">
 
       {/* Header */}
-      <div className="flex items-center justify-between px-4 py-3">
-        <IoArrowBack size={22} />
+  <div className="flex items-center justify-between px-4 py-3">
 
-        <img
-          src="https://1000logos.net/wp-content/uploads/2023/03/Paytm-logo.png"
-          alt="Paytm"
-          className="w-[90px]"
-        />
+  <LiaArrowLeftSolid className="text-[24px] text-black" />
 
-        <div className="text-xl text-black">⋮</div>
-      </div>
+  <img
+    src="https://1000logos.net/wp-content/uploads/2023/03/Paytm-logo.png"
+    alt="Paytm"
+    className="w-[90px]"
+  />
 
+  <PiDotsThreeVertical className="text-[22px] text-black font-2xl" />
+
+</div>
       {/* Content */}
       <div className="flex flex-col items-center px-4 text-black">
 

@@ -50,7 +50,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen pt-14 bg-[#d1e7f0] flex flex-col">
+    <div className="w-full min-h-screen pt-14 bg-[#d9edf5] flex flex-col">
 
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3">

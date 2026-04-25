@@ -79,7 +79,7 @@ export default function Home() {
         {/* Amount */}
         <div className="flex items-center gap-2 mt-6">
           <h1 className="text-5xl font-bold">₹15</h1>
-          <RiVerifiedBadgeFill className="text-green-600 text-[40px]" />
+          <RiVerifiedBadgeFill className="text-green-400 text-[40px]" />
         </div>
 
         {/* Date + Ref */}
@@ -100,7 +100,7 @@ export default function Home() {
             Pay Again
           </button>
 
-          <button className="bg-green-500 text-white px-5 py-2 rounded-full shadow flex items-center gap-2 text-sm font-medium">
+          <button className="bg-green-600 text-white px-5 py-2 rounded-full shadow flex items-center gap-2 text-sm font-medium">
             <FaWhatsapp />
             Share
           </button>

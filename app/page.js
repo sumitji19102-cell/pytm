@@ -79,7 +79,7 @@ export default function Home() {
         {/* Amount */}
         <div className="flex items-center gap-2 mt-6">
           <h1 className="text-5xl font-bold">₹15</h1>
-          <RiVerifiedBadgeFill className="text-green-400 text-[40px]" />
+          <RiVerifiedBadgeFill className="text-[#69BF7F] text-[40px]" />
         </div>
 
         {/* Date + Ref */}

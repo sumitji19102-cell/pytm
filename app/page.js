@@ -50,7 +50,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-[#e8f3f8] flex flex-col text-black">
+    <div className="w-full min-h-screen bg-[#e8f3f8] pt-15 flex flex-col text-black">
 
       {/* Header */}
       <div className="flex items-center justify-between px-4 py-3">
@@ -79,7 +79,7 @@ export default function Home() {
         {/* Amount */}
         <div className="flex items-center gap-2 mt-6">
           <h1 className="text-5xl font-bold">₹15</h1>
-          <RiVerifiedBadgeFill className="text-green-500 text-[40px]" />
+          <RiVerifiedBadgeFill className="text-green-600 text-[40px]" />
         </div>
 
         {/* Date + Ref */}

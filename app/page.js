@@ -115,7 +115,7 @@ export default function Home() {
       {/* Bottom Image */}
      <div className="mt-6 w-full">
   <img
-    src="https://i.ibb.co/zV6pQN61/new.png"
+    src="https://res.cloudinary.com/dle7kahvw/image/upload/q_100,f_auto,w_800/1000043263_ebsoil"
     alt="offer"
     className="w-full h-auto object-cover block"
   />

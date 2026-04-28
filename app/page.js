@@ -113,11 +113,11 @@ export default function Home() {
       </div>
 
       {/* Bottom Image */}
-      <div className="mt-6 w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
+     <div className="mt-6 w-full">
   <img
-    src="https://i.ibb.co/KxYZPkvT/photo-2026-04-25-07-34-48.jpg"
+    src="https://i.ibb.co/zV6pQN61/new.png"
     alt="offer"
-    className="w-screen h-auto object-cover"
+    className="w-full h-auto object-cover block"
   />
 </div>
 

@@ -92,7 +92,7 @@ export default function Home() {
           <span>{dateTime}</span>
           <span>•</span>
           <span>Ref. No: {refNumber}</span>
-          <MdContentCopy className="cursor-pointer text-lg" />
+          <MdContentCopy className="cursor-pointer text-sm" />
         </div>
 
         {/* Buttons */}

@@ -6,9 +6,9 @@ import { MdContentCopy } from "react-icons/md";
 import { IoArrowBack } from "react-icons/io5";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { LiaArrowLeftSolid } from "react-icons/lia";
-import { PiDotsThreeOutlineVerticalFill } from "react-icons/pi";
+import { PiDotsThreeVerticalBold } from "react-icons/pi";
 
-import { PiDotsThreeVertical } from "react-icons/pi";
+
 
 export default function Home() {
   const [dateTime, setDateTime] = useState("");
@@ -54,7 +54,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="w-full min-h-screen bg-[#E0FAFF] pt-12 flex flex-col text-black">
+    <div className="w-full min-h-screen bg-[#ebf2fc] pt-12 flex flex-col text-black">
 
       {/* Header */}
   <div className="flex items-center justify-between px-4 py-3">
@@ -67,7 +67,7 @@ export default function Home() {
     className="w-[90px]"
   />
 
-  <PiDotsThreeOutlineVerticalFill className="text-[22px] text-black font-2xl" />
+  <PiDotsThreeVerticalBold className="text-[22px] text-black font-2xl" />
 
 </div>
       {/* Content */}
@@ -92,20 +92,20 @@ export default function Home() {
           <span>{dateTime}</span>
           <span>•</span>
           <span>Ref. No: {refNumber}</span>
-          <MdContentCopy className="cursor-pointer text-lg" />
+          <MdContentCopy className="cursor-pointer text-sm" />
         </div>
 
         {/* Buttons */}
         <div className="flex gap-3 mt-6 flex-wrap justify-center">
-          <button className="bg-white px-5 py-2 rounded-full shadow text-sm font-medium">
+          <button className="bg-white px-3 py-2 rounded-full  text-sm font-medium">
             Check Balance
           </button>
 
-          <button className="bg-white px-5 py-2 rounded-full shadow text-sm font-medium">
+          <button className="bg-white px-3 py-2 rounded-full  text-sm font-medium">
             Pay Again
           </button>
 
-          <button className="bg-green-600 text-white px-5 py-2 rounded-full shadow flex items-center gap-2 text-sm font-medium">
+          <button className="bg-green-600 text-white px-3 py-2 rounded-full  flex items-center gap-2 text-sm font-medium">
             <FaWhatsapp />
             Share
           </button>
@@ -115,7 +115,7 @@ export default function Home() {
       {/* Bottom Image */}
      <div className="mt-6 w-full">
   <img
-    src="https://i.ibb.co/zV6pQN61/new.png"
+    src="https://res.cloudinary.com/dle7kahvw/image/upload/q_100,f_auto,w_800/1000043263_ebsoil"
     alt="offer"
     className="w-full h-auto object-cover block"
   />

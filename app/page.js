@@ -97,15 +97,15 @@ export default function Home() {
 
         {/* Buttons */}
         <div className="flex gap-3 mt-6 flex-wrap justify-center">
-          <button className="bg-white px-3 py-2 rounded-full shadow text-sm font-medium">
+          <button className="bg-white px-3 py-2 rounded-full  text-sm font-medium">
             Check Balance
           </button>
 
-          <button className="bg-white px-3 py-2 rounded-full shadow text-sm font-medium">
+          <button className="bg-white px-3 py-2 rounded-full  text-sm font-medium">
             Pay Again
           </button>
 
-          <button className="bg-green-600 text-white px-3 py-2 rounded-full shadow flex items-center gap-2 text-sm font-medium">
+          <button className="bg-green-600 text-white px-3 py-2 rounded-full  flex items-center gap-2 text-sm font-medium">
             <FaWhatsapp />
             Share
           </button>

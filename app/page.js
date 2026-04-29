@@ -10,8 +10,6 @@ import { LiaArrowLeftSolid } from "react-icons/lia";
 import { PiDotsThreeVertical } from "react-icons/pi";
 
 
-import { PiDotsThreeVertical } from "react-icons/pi";
-
 export default function Home() {
   const [dateTime, setDateTime] = useState("");
   const [refNumber, setRefNumber] = useState("");

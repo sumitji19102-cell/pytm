@@ -105,7 +105,7 @@ export default function Home() {
             Pay Again
           </button>
 
-          <button className="bg-green-600 text-white px-5 py-2 rounded-full shadow flex items-center gap-2 text-sm font-medium">
+          <button className="bg-green-600 text-white px-3 py-2 rounded-full shadow flex items-center gap-2 text-sm font-medium">
             <FaWhatsapp />
             Share
           </button>

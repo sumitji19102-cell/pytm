@@ -6,8 +6,8 @@ import { MdContentCopy } from "react-icons/md";
 import { IoArrowBack } from "react-icons/io5";
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { LiaArrowLeftSolid } from "react-icons/lia";
+import { PiDotsThreeVerticalBold } from "react-icons/pi";
 
-import { PiDotsThreeVertical } from "react-icons/pi";
 
 
 export default function Home() {
@@ -67,7 +67,7 @@ export default function Home() {
     className="w-[90px]"
   />
 
-  <PiDotsThreeVertical className="text-[22px] text-black font-2xl" />
+  <PiDotsThreeVerticalBold className="text-[22px] text-black font-2xl" />
 
 </div>
       {/* Content */}

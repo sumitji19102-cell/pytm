@@ -18,15 +18,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-   <html lang="en">
+    <html lang="en">
       <head>
-        <meta name="theme-color" content="#87CEFA">
-<meta name="msapplication-navbutton-color" content="#87CEFA">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+        <meta name="theme-color" content="#87CEFA" />
+        <meta name="msapplication-navbutton-color" content="#87CEFA" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       </head>
       <body className="bg-[#e8f3f8] m-0 p-0">
         {children}
       </body>
     </html>
   );
-}
+    }

@@ -115,7 +115,7 @@ export default function Home() {
       {/* Bottom Image */}
      <div className="mt-6 w-full">
   <img
-    src="https://i.ibb.co/ShVN5dx/file-0000000094cc7207b08346e27b6b109c.png"
+    src="https://podu.pics/7bAc0pApbI"
     alt="offer"
     className="w-full h-auto object-cover block"
   />

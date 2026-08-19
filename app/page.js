@@ -115,7 +115,7 @@ export default function Home() {
       {/* Bottom Image */}
      <div className="mt-6 w-full">
   <img
-    src="https://podu.pics/7bAc0pApbI"
+    src="https://podu.pics/zibwGseMie"
     alt="offer"
     className="w-full h-auto object-cover block"
   />

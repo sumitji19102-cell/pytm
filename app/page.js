@@ -62,7 +62,7 @@ export default function Home() {
   <LiaArrowLeftSolid className="text-[24px] text-black" />
 
   <img
-    src="https://i.ibb.co/WLZCS09/file-000000006a648211a6773516ff15d9a0.png"
+    src="https://1000logos.net/wp-content/uploads/2023/03/Paytm-logo.png"
     alt="Paytm"
     className="w-[90px]"
   />
